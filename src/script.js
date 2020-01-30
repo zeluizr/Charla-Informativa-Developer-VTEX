@@ -4,12 +4,10 @@ $(document).ready(function() {
   const Element = $(".vitrine .shelf > h2");
   const Title = Element.text();
   const Split = Title.split(";");
-  const TitleString = $("<span />").text(Split[0]);
   const Link = $("<a />")
     .attr("href", Split[1])
-    .text("More Products >");
+    .text(Split[0]);
   Element.html("");
-  Element.append(TitleString);
   Element.append(Link);
   // http://tutienda.myvtex.com/
   // buscapagina
