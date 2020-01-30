@@ -1,6 +1,8 @@
 ![Image](https://inmmerce.com/static/media/logo-purple.3dd40cb8.svg)
 
-[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Inmmerce/Charla-Informativa-Developer-VTEX) [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/Inmmerce/Charla-Informativa-Developer-VTEX) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/Inmmerce/Charla-Informativa-Developer-VTEX)
+[![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/Inmmerce/Charla-Informativa-Developer-VTEX)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://inmmerce.mit-license.org/)
 
 # Tarea de la primera charla informativa #INMMERCE
 
