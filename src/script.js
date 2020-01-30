@@ -11,7 +11,6 @@ $(document).ready(function() {
   Element.html("");
   Element.append(TitleString);
   Element.append(Link);
-  $("");
   // http://tutienda.myvtex.com/
   // buscapagina
   // ID de la vitrina
