@@ -1,15 +1,13 @@
-# VTEX Speed
+# INMMERCE - Charla Informativa Developer VTEX
+
+## VTEX Speed
 
 VTEX Store development tools - reverse proxy, compilation, minification, optimization and more!
 
-## Presentation - VTEX Day 2014
-
-Watch a presentation about VTEX Speed here (pt-BR): http://firstdoit.github.io/presentations/vtex-day-2014
-
 ## Pre-requisites
 
-* Node - http://nodejs.org/
-* Grunt - https://gruntjs.com/
+- Node - http://nodejs.org/
+- Grunt - https://gruntjs.com/
 
 ## Install
 
@@ -20,10 +18,10 @@ Clone this repo or download and unzip it.
 **Before continuing**, please edit the `accountName` key to the `package.json` file. For example:
 
 ```json
-    {
-      "name": "vtex-speed",
-      "accountName": "your-store-account-name",
-    }
+{
+  "name": "vtex-speed",
+  "accountName": "your-store-account-name"
+}
 ```
 
 Enter the folder you cloned or downloaded, install dependencies and run `npm start`:
@@ -34,7 +32,7 @@ Enter the folder you cloned or downloaded, install dependencies and run `npm sta
     npm start
 ```
 
-First, open your browser here to authenticate:  
+First, open your browser here to authenticate:
 
 http://your-store-account-name.vtexlocal.com.br/admin/Site/Login.aspx
 
@@ -42,8 +40,7 @@ Then, open a normal page, like your home:
 
 http://your-store-account-name.vtexlocal.com.br/?debugcss=true&debugjs=true
 
-**Important**  You should replace `your-store-account-name` with the accountName of your store. Who would guess, huh?
-
+**Important** You should replace `your-store-account-name` with the accountName of your store. Who would guess, huh?
 
 Nice! Live Reload has reloaded that stylesheet for you.
 
@@ -105,13 +102,13 @@ Thus, the proxy shouted: "I was receiving a response and it stopped abruptly!"
 
 ## Release History
 
-- 2018-09-11    v5.0.0      Add compress option. Allow to use another port. Add support for SASS.
+- 2018-09-11 v5.0.0 Add compress option. Allow to use another port. Add support for SASS.
 
-- 2016-05-06    v3.0.0      Update grunt to major 1 and other dependencies
+- 2016-05-06 v3.0.0 Update grunt to major 1 and other dependencies
 
-- 2015-03-16    v2.1.0      Update connect-http-please, separate middlewares from Gruntfile
+- 2015-03-16 v2.1.0 Update connect-http-please, separate middlewares from Gruntfile
 
-- 2015-03-16    v2.0.0      Replace `connect-tryfiles` with `serve-static` and `proxy-middleware`, adding support to "vteximg" host proxying. Update deps. **Important:** `accountName` is now a required property in the `package.json` file.
+- 2015-03-16 v2.0.0 Replace `connect-tryfiles` with `serve-static` and `proxy-middleware`, adding support to "vteximg" host proxying. Update deps. **Important:** `accountName` is now a required property in the `package.json` file.
 
 ## License
 
